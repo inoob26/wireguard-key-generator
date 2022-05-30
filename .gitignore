@@ -1,0 +1,4 @@
+confs/
+keys/
+venv/
+.env/
