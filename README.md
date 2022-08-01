@@ -58,3 +58,20 @@ You should set "last_ip" as 10.0.0.1 and after that the script will increment ip
     ```
     systemctl restart wg-quick@wg0
     ```
+
+
+## Client
+
+Install wireguard 
+https://www.wireguard.com/install
+
+
+Connect to server
+```
+wg-quick up <client-name>_wg.conf
+```
+
+Drop connection
+```
+wg-quick down <client-name>_wg.conf
+```
